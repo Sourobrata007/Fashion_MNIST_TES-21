@@ -1,4 +1,4 @@
-# Fashion_MNIST_TES-21
+# Project Level-1: Fashion_MNIST_TES-21
 
 Fashion-MNIST is a dataset of Zalando's article images—consisting of a training
 set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image,
@@ -22,7 +22,7 @@ The cost or loss function has an important job in that it must faithfully distil
 The test accuracy was 87.47%
 
 
-#Project Level-2: FOOD_MNIST_TES_21#
+# Project Level-2: FOOD_MNIST_TES_21
 Food-MNIST is a dataset with 10 food categories, with 5,000 images. For each
 class, 125 manually reviewed test images are provided as well as 375 training images. All images were
 rescaled to have a maximum side length of 512 pixels.
@@ -32,7 +32,7 @@ The dataset you are getting is a subset of the above mentioned dataset and has o
 ● 2 : baklava
 ● 3 : beef carpaccio
 
-#*Model_1*#
+# *Model_1* 
 
 The first model is Convolutional Neural Network based on Support Vector Machine. It has a Convolutional layer, Pooling layer, second, third convolutional layer, flattening layer, second dense layer and finally an output layer. All the six layers have Relu activation function and the final, output layer has adam optimiser and squared hinge loss function. Summary : Total params: 103,896
 Trainable params: 103,896
@@ -40,7 +40,7 @@ Non-trainable params: 0
 I ran 100 epochs on the model and the graphs for loss and accuracy were plotted.
 
 
-#*Model_2*#
+# *Model_2*
 
 The second model is based on Inception pretrained model, which has efficient architectures such as ResNet, etc. Model Summary :Total params: 22,065,572
 Trainable params: 22,031,140
